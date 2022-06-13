@@ -5,6 +5,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
+  background-color: white
 }
 
 body {
@@ -13,7 +14,11 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: rgba(0,0,0,0.1);
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+form{
+  background-color: whitesmoke;
 }
 
 button {
@@ -24,7 +29,7 @@ button {
   width: 90%;
   height: 80%;
   border-radius: 10px;
-  background: white;
+  background: black;
 }
 
 .header {
@@ -33,12 +38,15 @@ button {
   align-items: center;
   justify-content: space-between;
   margin: auto 12px;
+  background-color: transparent;
 }
 
 .header span {
   font-weight: 900;
-  font-size: 20px;
+  font-size: 25px;
   word-break: break-all;
+  background-color: transparent;
+  color: white;
 }
 
 #new {
@@ -55,11 +63,14 @@ button {
   width: auto; 
   height:inherit; 
   overflow:auto;
+  background-color: white;
+  border-radius: 10px;
+  margin: 10px;
 }
 
 .divTable::-webkit-scrollbar {
-  width: 12px;
-  background-color: whitesmoke; 
+  width: 10px;
+  background-color: transparent; 
 }
 
 .divTable::-webkit-scrollbar-thumb {
@@ -71,38 +82,45 @@ table {
   width: 100%;
   border-spacing: 10px;
   word-break: break-all;
-  border-collapse: collapse;
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color: white;
 }
 
 thead {
-  background-color: whitesmoke;
+  background-color: transparent;
 }
 
 tr {
   border-bottom: 1px solid rgb(4, 2, 2)!important;
+  background-color: transparent;
   
 }
 
 tbody {
   border-radius: 50px;
-  background-color: rgb(255, 255, 255);
+  background-color: transparent;
+
 }
 
 tbody tr td {
   vertical-align: center;
   padding: 6px;
   max-width: 50px;
+  background-color: transparent;
+  border-top: 1px solid black;
 }
 
 thead tr th {
   padding: 5px;
   text-align: start;
   margin-bottom: 50px;
+  background-color: transparent;
+  
 }
 
 tbody tr {
   margin-bottom: 50px;
-
 }
 
 thead tr th.acao {
@@ -112,6 +130,7 @@ thead tr th.acao {
 
 tbody tr td.acao {
   text-align: center;
+  background-color: transparent;
 }
 
 @media (max-width: 700px) {
@@ -135,10 +154,12 @@ tbody tr td.acao {
   
   td button i {
     font-size: 20px!important;
+    background-color: white;
   }
 
   td button i:first-child {
     margin-right: 0;
+    background-color: white;
   }
 
   .modal {
@@ -176,6 +197,7 @@ tbody tr td.acao {
 .modal label {
   font-size: 14px;
   width: 100%;
+  background: transparent;
 }
 
 .modal input {
@@ -187,6 +209,7 @@ tbody tr td.acao {
   border-top: none;
   border-left: none;
   border-right: none;
+  background-color: transparent;
 }
 
 .modal button {
@@ -224,13 +247,15 @@ tbody tr td.acao {
 td button {
   border: none;
   outline: none;
-  background: transparent;
+  background-color: whitesmoke;
 }
 
 td button i {
   font-size: 25px;
+  background-color: whitesmoke;
 }
 
 td button i:first-child {
   margin-right: 10px;
+  background-color: whitesmoke;
 }
