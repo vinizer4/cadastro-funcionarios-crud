@@ -49,7 +49,7 @@ deletar que irão executadas as funções editItem e deleteItem.
 
 Passando os icones que fizemos a importação do box-icons no nosso html*/
     tr.innerHTML = `
-            <td><img src="${item.foto}" width="120px" height="justify" /></td>
+            <td><img id="foto" src="${item.foto}"/></td>
             <td>${item.nome}</td>
             <td>${item.funcao}</td>
             <td>R$ ${item.salario}</td>
